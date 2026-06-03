@@ -1,8 +1,57 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_type = [
+    "Benchmark", "Dataset", "Evaluation", "Survey", "Review", "Overview",
+    "Leaderboard", "Challenge"
+];
+
+let titles_model = [
+    "Multimodal Large Language Model", "Large Vision-Language Model",
+    "Vision-Language Model", "Vision Language Model",
+    "Vision-Language", "Vision Language",
+    "MLLM", "LVLM", "VLM",
+    "BLIP-2", "MiniGPT-4", "Qwen-VL", "InternVL",
+    "LLaVA", "CLIP", "BLIP", "Flamingo", "Kosmos",
+    "GPT-4V", "GPT-4o", "Gemini"
+];
+
+let titles_method = [
+    // VLM and VQA
+    "Knowledge-Based Visual Question Answering",
+    "Knowledge-based Visual Question Answering",
+    "Knowledge-Based VQA", "Knowledge-based VQA", "KB-VQA",
+    "Visual Question Answering", "VQA",
+    "Multimodal Question Answering", "Visual Reasoning",
+    "Multimodal Reasoning", "Compositional Reasoning",
+
+    // Knowledge and retrieval
+    "Knowledge-Intensive", "Knowledge Intensive",
+    "Knowledge-Augmented", "Knowledge Augmented",
+    "Knowledge-Aware", "Knowledge Aware",
+    "Knowledge Graph", "Knowledge Base", "Knowledge Retrieval",
+    "Commonsense", "World Knowledge", "Entity Linking",
+    "Retrieval-Augmented", "Retrieval Augmented", "RAG",
+    "Grounding", "Visual Grounding", "Factuality", "Factual Knowledge",
+
+    // Abstention, uncertainty, and trustworthy prediction
+    "Abstention", "Abstain", "Selective Prediction", "Selective Generation",
+    "Selective Classification", "Reject Option", "Refusal",
+    "Answerability", "Unanswerable", "Uncertainty Quantification",
+    "Uncertainty", "Calibration", "Confidence", "Conformal",
+    "Risk-Coverage", "Risk Coverage", "Out-of-Distribution",
+    "Out of Distribution", "OOD", "Hallucination", "Faithfulness",
+    "Trustworthy", "Reliability", "Robustness"
+];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let authors_array = [
+    "Qian Ma", "Ma Qian", "Van Qian",
+
+    // Wiki-PRF
+    "Yuyang Hong", "Jiaqi Gu", "Qi Yang", "Lubin Fan", "Yue Wu",
+    "Ying Wang", "Kun Ding", "Shiming Xiang", "Jieping Ye",
+
+    // ReflectiVA
+    "Federico Cocchi", "Nicholas Moratelli", "Marcella Cornia",
+    "Lorenzo Baraldi", "Rita Cucchiara"
+];
 
 let conferences = [
     // AI
